@@ -1,6 +1,6 @@
 import unittest
 
-
+#funcion
 def is_palindrome(mystring):
     for indice in range(0, len(mystring)):
         print(mystring[indice] + " --> " + mystring[-(indice +1)])
