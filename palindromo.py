@@ -9,8 +9,8 @@ def is_palindrome(mystring):
             return False
     return True
 
-
-class TestPalindrome(unittest.TestCase):
+#test 
+class TestPalindrome(unittest.TestCase): 
     def test_a(self):
         resultado = is_palindrome('a')
         self.assertEqual(resultado, True)
